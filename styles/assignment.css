@@ -1,0 +1,652 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+  width: 100%;
+  background-color: #F5F5F5;
+
+  .fira-sans-regular {
+      font-family: "Fira Sans", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .fira-sans-medium {
+      font-family: "Fira Sans", serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+}
+
+.contant{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.fontheading{
+  font-size: 40px;
+  color: rgb(14, 14, 14);
+  font-weight: 700;
+}
+
+.headersection{
+  width: 100%;
+  margin: 30px 0px;
+
+}
+
+.navul{
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.navul li{
+  list-style-type: none;
+
+}
+.navtitle{
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.navul li a{
+  border: 2px solid #006A50;
+  color: #006A50;
+  padding: 15px 30px 15px 30px;
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 8px;
+
+}
+.navul li a:hover{
+  color: white;
+  background-color: #006A50;
+ 
+
+}
+
+
+.bannersection{
+  width: 100%;
+  
+  
+}
+
+.bannercontant{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #C6E4D6;
+  padding: 80px 100px;
+  border-radius: 20px;
+  
+  
+
+}
+
+.banneritem1{
+  width: 50%;
+
+}
+
+.bannersubtitle{
+  color: #6A7972;
+  font-weight: 600px;
+  font-size: 24px;
+
+}
+
+.bannermaintitle{
+font-size: 56px;
+font-weight: 700;
+
+}
+
+.bannerbtn{
+
+  padding: 17px 34px 17px 34px;
+  margin-top: 20px;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+
+}
+
+.bannerbtn:hover{
+  background-color:#5490F5;
+}
+
+.banneritem2{
+  width: 50%;
+
+}
+.images{
+  float: right;
+}
+
+.banneritem2 img{
+  width: auto;
+  
+}
+
+
+.cardsection{
+  margin: 70px 0px;
+
+}
+
+.cardtitle h2{
+  line-height: 48px;
+
+}
+
+.cardcontant{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 30px;
+  
+
+}
+
+.card{
+  width: 305px;
+  padding: 24px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+  background-color: white;
+}
+
+
+.cardheading{
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+color: rgba(14, 14, 14, 0.8);
+
+
+}
+.cardheading-p{
+
+  color: #5B6068; ;
+
+
+}
+
+.carddescription{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+}
+
+
+.visionsection{
+
+}
+
+.visiontitle{
+
+}
+
+.visioncardheading{
+margin-bottom: 30px;
+
+
+}
+
+.visiondescripton{
+font-size: 16px;
+font-weight: 400px;
+color: rgba(14, 14, 14, 0.7);
+margin: 30px 0px;
+
+}
+
+.visioncontainer{
+  display: flex;
+  gap: 24px;
+
+}
+
+.visioncard{
+width: 410.67px;
+box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+padding: 32px;
+display: flex;
+flex-direction: column;
+row-gap: 20px;
+
+}
+
+
+
+.visioncard img{
+  width: 70px;
+}
+
+.vbtn1{
+  padding: 11px 20px 11px 20px;
+ background-color: #5490F5;
+ border: none;
+ border-radius: 8px;
+ color: white;
+ 
+}
+.v-btn1:hover{
+  background-color: #006A50;
+
+ 
+}
+
+
+.visioncard2{
+  width: 410.67px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  
+  }
+  .vbtn2{
+      padding: 11px 20px 11px 20px;
+      background-color: rgb(9, 161, 92);
+     border: none;
+     border-radius: 8px;
+     color: white;
+     
+  }
+  .vbtn2:hover{
+      background-color: #006A50;
+      
+     
+  }
+ 
+
+  .visioncard3{
+      width: 410.67px;
+      box-sizing: border-box;
+      border-radius: 16px;
+      background: rgb(198, 228, 214);
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      
+      }
+      .vbtn3{
+          padding: 11px 20px 11px 20px;
+         border: none;
+         border-radius: 8px;
+          background: rgb(255, 194, 57);
+          color: white;
+         
+      }
+      .vbtn3:hover{
+          background-color: #006A50;
+         
+         
+      }
+
+    
+
+      .visionlorem{
+          background-color: white;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+          padding: 48px 24px 48px 24px;
+          margin: 30px 0px;
+          border-radius: 5px;
+      }
+
+      .loremimg{
+          position: relative;
+
+      }
+
+      .loremimg img{
+          position: absolute;
+          left: 36px;
+          top: -18px;
+
+      }
+
+      .loremdescripton{
+          font-size: 16px;
+          font-weight: 400;
+          color: #5B6068;
+
+      }
+
+      .loremheading{
+          font-size: 20px;
+          color: #5B6068;
+         margin: 4px 0px;
+      }
+
+     
+
+      .tablesection{
+          margin: 100px 0px;
+
+      }
+
+      .tableheading{
+          margin: 20px 0px;
+
+      }
+
+
+     table{
+
+      border-collapse: collapse;
+      width: 100%;
+      background-color: white;
+      
+      
+
+      
+     }
+     thead{
+      box-sizing: border-box;
+      border: 1px solid rgba(14, 14, 14, 0.15);
+      background: rgb(198, 228, 214);
+     }
+     th{
+      text-align: start;
+      padding: 24px 0px;
+      
+     }
+
+     td{
+      border: 1px solid black;
+      padding: 15px 23px;
+      for align = "middle", textAlign is set to center
+      vertical-align: bottom;
+      
+        
+     }
+     select{
+      padding: 10px 5px;
+     }
+
+     tr{
+      border-spacing: 10px;
+     }
+
+     
+     .newssection{
+      margin: 50px 0px;
+
+     }
+
+     .newstitle{
+
+     }
+
+     .newsdescription{
+      color: rgba(14, 14, 14, 0.7);
+      font-size: 16px;
+      font-weight: 400px;
+
+     }
+
+     .newscontainer{
+      margin-top: 30px;
+      display: flex;
+      gap: 32px;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      padding: 48px;
+      border-radius: 15px;
+      background-color: white;
+     }
+
+  
+     .newscolumn-1{
+
+     }
+     .newsimages{
+      
+     }
+
+     .newsimages img{
+      border-radius: 20px;
+
+     }
+
+   
+
+  .newscolumn2{
+
+  }
+
+  .newscolumn2 img{
+      width: 134px;
+
+  }
+
+  .jaziradate{
+      color: rgba(14, 14, 14, 0.7);
+      font-size: 16px;
+      font-weight: 400;
+      margin: 12px 0px;
+
+  }
+
+  .satalitedesc{
+      color: rgba(14, 14, 14, 0.7);
+      margin: 12px 0px;
+      font-size: 16px;
+      font-weight: 400;
+
+  }
+
+  .jazirabtn{
+      padding: 13px 26px 13px 26px;
+      border-radius: 8px;
+      background: rgb(0, 106, 80);
+      border: none;
+      color: white;
+      margin: 20px 0px;
+
+  }
+  .jazirabtn:hover{
+      background-color: #5490F5;
+      
+
+  }
+
+  .donatesection{
+      margin: 50px 0px;
+     
+  }
+
+  .donatetitle{
+      text-align: center;
+      margin: 50px 0px;
+      
+
+  }
+
+  .donatetitleheading{
+      
+      margin: 24px 0px;
+  }
+  .donatetitledesc{
+      margin-bottom: 70px;
+      color: rgba(14, 14, 14, 0.7);
+      font-size: 16px;
+      font-weight: 400;
+
+  }
+
+  .moneycontant{
+      
+      padding: 48px;
+     
+      
+
+  }
+
+  .moneycard{
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      
+
+  }
+
+  .moneycard span{
+      padding: 40px;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+      color: rgba(14, 14, 14, 0.8);
+      
+      font-size: 40px;
+      font-weight: 700;
+
+
+  }
+
+  .otheramount{
+
+  }
+  .myother{
+      width: 80%;
+      margin: 20px 50px;
+      text-align: center;
+      padding: 20px 40px;
+      outline: none;
+      box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px
+      b
+  }
+
+  .otheramount  p{
+      margin: 60px 0px;
+      
+      text-align: center;
+      
+  
+     
+       
+  }
+
+  .span{
+      color: rgba(14, 14, 14, 0.3);
+      font-size: 20px;
+      font-weight: 400;
+  }
+
+  .btnamount{
+      text-align: center;
+      margin: 50px 0px;
+  }
+  .btnamount a{
+      text-decoration: none;
+      padding: 15px 34px;
+      background: rgb(0, 106, 80);
+      color: white;
+      text-align: center;
+      border-radius: 8px;
+  }
+  .btnamount a:hover{
+      background-color: #5490F5;
+     
+  }
+
+
+ 
+  .newslatersection{
+      text-align: center;
+      margin-bottom: 50px;
+  }
+
+  .mynews{
+      border-radius: 24px;
+      background: rgb(198, 228, 214);
+      padding: 80px 100px 80px 100px;
+  }
+
+ .newslaterdesc{
+  color: rgba(14, 14, 14, 0.7);
+  margin: 30px 0px;
+  font-size: 16px;
+  font-weight: 400;
+
+ }
+
+ .newsform{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ .newsform label{
+  
+  
+ }
+ 
+ .newsform label input{
+  width: 600px;
+  padding: 18px 40px 18px 40px;
+  outline: none;
+  
+
+ }
+ .newsform a{
+  padding: 17px 34px 17px 34px;
+  border-radius: 0px 8px 8px 0px;
+
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+
+ }
+
+ .miss{
+  text-align: center;
+  margin-top: 20px;
+  color: rgba(14, 14, 14, 0.7);
+  
+  font-size: 16px;
+  font-weight: 400;
+ }
+ 
+
+
+
+ .footersection{
+  margin: 30px 0px;
+ }
+ .hrstyle{
+  margin: 28px 75px;
+ }
+
+   
+
+ .footerimgages{
+  text-align: center;
+ }
